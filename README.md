@@ -5,6 +5,12 @@ Usable lifecycle guarantees for SwiftUI.
 `onAppear` -> `onLive`  
 `task` -> `whileLive`
 
+## Usage
+
+1. Add `swiftui-on-live` as a Swift Package Manager dependency.
+2. `import onLive` within your view's file.
+3. Replace your view's `onAppear` and `task` calls with `onLive` and `whileLive`.
+
 ## Why?
 
 SwiftUI's standard view lifecycle methods are sometimes called repeatedly — making binding a behavior
